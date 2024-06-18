@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "rm -rf public/sitemap.xml && next build && next start",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "lint": "next lint"
   },

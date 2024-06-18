@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "ONE-Mobile-POP";
+  src: url("/fonts/one-mobile-pop.otf") format("opentype"),
+    url("/fonts/one-mobile-pop.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ONE-Mobile-POP", sans-serif;
+}
