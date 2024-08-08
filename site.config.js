@@ -4,7 +4,7 @@ const CONFIG = {
     name: "park su-jeong",
     image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "2nd year backend developer",
-    bio: "I develop everything using node.",
+    bio: "I develop anything using node.",
     email: "sujeong9158@gmail.com",
     linkedin: "",
     github: "ParkSuJeong74",
@@ -31,7 +31,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID || "0769cac1bd6549748b94cbf427d9ffe2",
+    pageId: process.env.NOTION_PAGE_ID,
   },
 
   // plugin configuration (optional)

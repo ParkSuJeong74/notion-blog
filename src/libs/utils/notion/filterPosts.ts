@@ -33,7 +33,8 @@ export function filterPosts(
     })
     // filter type
     .filter((post) => {
-      const postType = post.type[0]
+      const postType = post?.type[0]
+      if (!postType) return false
       return acceptType.includes(postType)
     })
   return filteredPosts
